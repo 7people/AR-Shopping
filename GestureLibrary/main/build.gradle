@@ -1,0 +1,20 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 33
+    defaultConfig {
+        minSdkVersion 27
+        targetSdkVersion 33
+        versionCode 1
+        versionName "1.0.0"
+    }
+    compileOptions {
+        sourceCompatibility = 1.8
+        targetCompatibility = 1.8
+    }
+}
+
+dependencies {
+    testImplementation 'junit:junit:4.12'
+    testImplementation 'org.robolectric:robolectric:4.1'
+}
