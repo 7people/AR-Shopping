@@ -38,7 +38,7 @@ Username: demo
 E-mail: demo@demo.com
 Password: demo
 ```
-## Developers
+## Developerss
 - Ali Kanal [@AlkaliNN](https://github.com/AlkaliNN "@AlkaliNN")
 - Bahri Şahin Demirtaş
 - Berkay Mustafaoğlu [@wilwaerin](https://github.com/wilwaerin "@wilwaerin")
