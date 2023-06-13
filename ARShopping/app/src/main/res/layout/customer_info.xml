@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/button_back"
+    android:orientation="horizontal"
+    android:paddingLeft="10sp"
+    android:paddingTop="10sp"
+    android:paddingRight="10sp"
+    android:paddingBottom="10sp">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="4"
+        android:gravity="center"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12sp"
+            android:layout_marginTop="7sp"
+            android:autoSizeTextType="uniform"
+            android:fontFamily="monospace"
+            android:text="Order  Number:"
+            android:textAlignment="viewStart"
+            android:textColor="#3F51B5"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/p_order_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12sp"
+            android:autoSizeTextType="uniform"
+            android:fontFamily="monospace"
+            android:text="Product1"
+            android:textAlignment="viewStart"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12sp"
+            android:layout_marginTop="7sp"
+            android:autoSizeTextType="uniform"
+            android:fontFamily="monospace"
+            android:text="Customer Name:"
+            android:textAlignment="viewStart"
+            android:textColor="#3F51B5"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/p_user_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12sp"
+            android:autoSizeTextType="uniform"
+            android:fontFamily="monospace"
+            android:text="1"
+            android:textAlignment="viewStart"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12sp"
+            android:layout_marginTop="7sp"
+            android:autoSizeTextType="uniform"
+            android:fontFamily="monospace"
+            android:text="Adress:"
+            android:textAlignment="viewStart"
+            android:textColor="#3F51B5"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/p_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12sp"
+            android:autoSizeTextType="uniform"
+            android:fontFamily="monospace"
+            android:text="Description of Product1"
+            android:textAlignment="viewStart"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12sp"
+            android:layout_marginTop="7sp"
+            android:autoSizeTextType="uniform"
+            android:fontFamily="monospace"
+            android:text="Order Date:"
+            android:textAlignment="viewStart"
+            android:textColor="#3F51B5"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/p_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12sp"
+            android:autoSizeTextType="uniform"
+            android:fontFamily="monospace"
+            android:text="Product1"
+            android:textAlignment="viewStart"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12sp"
+            android:layout_marginTop="7sp"
+            android:autoSizeTextType="uniform"
+            android:fontFamily="monospace"
+            android:text="Total Price:"
+            android:textAlignment="viewStart"
+            android:textColor="#3F51B5"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/p_total_amount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12sp"
+            android:autoSizeTextType="uniform"
+            android:fontFamily="monospace"
+            android:text="Product1"
+            android:textAlignment="viewStart"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

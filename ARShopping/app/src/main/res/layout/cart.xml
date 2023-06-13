@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="horizontal"
+    android:paddingLeft="10sp"
+    android:paddingTop="10sp"
+    android:paddingRight="10sp"
+    android:paddingBottom="10sp">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+
+        <Button
+            android:id="@+id/removeCartButton"
+            android:layout_width="155dp"
+            android:layout_height="wrap_content"
+            android:onClick="onRemoveButtonClick"
+            android:text="Remove" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/product_img"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            tools:srcCompat="@tools:sample/avatars" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12sp"
+                android:layout_marginTop="12sp"
+                android:autoSizeTextType="uniform"
+                android:fontFamily="monospace"
+                android:text="Product:"
+                android:textAlignment="viewStart"
+                android:textColor="#3F51B5"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/product_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12sp"
+                android:autoSizeTextType="uniform"
+                android:fontFamily="monospace"
+                android:text="Product1"
+                android:textAlignment="viewStart"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/cidd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12sp"
+                android:autoSizeTextType="uniform"
+                android:fontFamily="monospace"
+                android:text="Cart_id"
+                android:textAlignment="viewStart"
+                android:textStyle="bold"
+                android:hint="555"
+                android:visibility="invisible"
+                />
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12sp"
+                android:layout_marginTop="12sp"
+                android:autoSizeTextType="uniform"
+                android:fontFamily="monospace"
+                android:text="Quantity:"
+                android:textAlignment="viewStart"
+                android:textColor="#3F51B5"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/quantity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12sp"
+                android:autoSizeTextType="uniform"
+                android:fontFamily="monospace"
+                android:text="Quantity"
+                android:textAlignment="viewStart"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12sp"
+                android:layout_marginTop="12sp"
+                android:autoSizeTextType="uniform"
+                android:fontFamily="monospace"
+                android:text="Seller:"
+                android:textAlignment="viewStart"
+                android:textColor="#3F51B5"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/seller_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12sp"
+                android:autoSizeTextType="uniform"
+                android:fontFamily="monospace"
+                android:text="1"
+                android:textAlignment="viewStart"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12sp"
+                android:layout_marginTop="12sp"
+                android:autoSizeTextType="uniform"
+                android:fontFamily="monospace"
+                android:text="Date:"
+                android:textAlignment="viewStart"
+                android:textColor="#3F51B5"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12sp"
+                android:autoSizeTextType="uniform"
+                android:fontFamily="monospace"
+                android:text="Product1"
+                android:textAlignment="viewStart"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/c_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12sp"
+                android:autoSizeTextType="uniform"
+                android:fontFamily="monospace"
+                android:text="Cart_id"
+                android:textAlignment="viewStart"
+                android:textStyle="bold"
+                android:hint="555"
+                />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

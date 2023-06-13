@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AR Shopping</string>
+    <string name="tap_to_scan_qr_code">Tap once to scan product\'s QR</string>
+    <string name="result_label">Product Code:</string>
+    <string name="tfe_od_app_name" translation_description="Object Detection demo app [CHAR_LIMIT=40]">Object Detection</string>
+    <string name="tfe_od_camera_error" translation_description="Error regarding camera support[CHAR_LIMIT=40]">This device doesn\'t support Camera2 API.</string>
+    <string name="listen_to_results">Listen to Results</string>
+</resources>

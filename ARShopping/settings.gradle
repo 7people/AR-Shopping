@@ -1,0 +1,20 @@
+include ':app'
+include ':tensorflow-lite'
+
+includeBuild('../GestureLibrary') {
+    dependencySubstitution {
+        substitute module('com.example.glass.ui:gesture-lib-sample') with project(':main')
+    }
+}
+
+/*
+includeBuild('../MyObjectDetection-master') {
+    dependencySubstitution {
+        substitute module('org.tensorflow.lite.examples.detection:object-detection-sample') with project(':MyObjectDetection')
+    }
+}
+*/
+
+/*include ':MyObjectDetection'
+project(':MyObjectDetection').projectDir = new File('../MyObjectDetection-master/MyObjectDetection')
+*/

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".otpCheck">
+
+    <EditText
+        android:id="@+id/code"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#30ffffff"
+        android:hint="code"
+        android:layout_marginTop="135dp"
+        android:paddingLeft="10dp"
+        android:padding="20dp"
+        android:textColorHint="@color/white"
+
+        />
+    <ImageView
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:src="@drawable/software_logo"
+        android:layout_marginLeft="550dp"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkbtn"
+        android:layout_below="@id/code"
+        android:text="check"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/code"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/white"
+        android:onClick="BackButton"
+        android:text="back" />
+
+</RelativeLayout>

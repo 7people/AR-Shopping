@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="horizontal"
+    android:paddingLeft="10sp"
+    android:paddingTop="10sp"
+    android:paddingRight="10sp"
+    android:paddingBottom="10sp">
+
+    <LinearLayout
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="115dp"
+        android:layout_marginRight="10dp"
+        android:gravity="center"
+        android:background="@drawable/defaultuser"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/pageTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="monospace"
+            android:paddingTop="7sp"
+            android:paddingBottom="7sp"
+            android:text="Account Details"
+            android:textAlignment="center"
+            android:textColor="#2196F3"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:background="@drawable/button_border"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="60dp"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/accountNameTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12sp"
+                android:layout_marginTop="12sp"
+                android:autoSizeTextType="uniform"
+                android:fontFamily="monospace"
+                android:text="Account Name:"
+                android:textAlignment="viewStart"
+                android:textColor="#3F51B5"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/accountNameValue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12sp"
+                android:autoSizeTextType="uniform"
+                android:fontFamily="monospace"
+                android:text=""
+                android:textAlignment="viewStart"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/accountEmailTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12sp"
+                android:layout_marginTop="12sp"
+                android:autoSizeTextType="uniform"
+                android:fontFamily="monospace"
+                android:text="Account Email:"
+                android:textAlignment="viewStart"
+                android:textColor="#3F51B5"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/accountEmailValue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12sp"
+                android:autoSizeTextType="uniform"
+                android:fontFamily="monospace"
+                android:text=""
+                android:textAlignment="viewStart"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="73dp"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/backButton"
+            android:layout_width="53dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:onClick="BackToProductList"
+            android:background="@drawable/button_back"
+            android:text="BACK" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000">
+
+    <LinearLayout
+        android:id="@+id/leftButtons"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/button_search"
+            android:layout_width="match_parent"
+            android:layout_height="169dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/black_button_background"
+            android:text="SEARCH"
+            android:onClick="searchObjectDetection"
+            android:textColor="@color/black"
+            android:textSize="13dp"
+            tools:text="SEARCH" />
+
+        <Button
+            android:id="@+id/button_back"
+            android:layout_width="66dp"
+            android:layout_height="169dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/black_button_background"
+            android:text="BACK"
+            android:onClick="backObjectDetection"
+            android:textColor="@color/black"
+            android:textSize="13dp"
+            tools:text="BACK" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="130dp"
+        android:layout_height="match_parent"
+        android:background="@android:color/black"
+        android:orientation="vertical">
+
+
+        <FrameLayout
+            android:id="@+id/container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context="org.tensorflow.demo.CameraActivity">
+
+        </FrameLayout>
+
+        <!--<CheckBox
+            android:id="@+id/btn"
+            android:layout_width="213dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="50dp"
+            android:background="@color/tfe_semi_transparent"
+            android:text="@string/listen_to_results"
+            android:textColor="#FBF8F8"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:theme="@android:style/Theme.Holo" />
+            -->
+    </RelativeLayout>
+    <include
+        android:id="@+id/bottom_sheet_layout"
+        android:visibility="gone"
+        layout="@layout/tfe_od_layout_bottom_sheet" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

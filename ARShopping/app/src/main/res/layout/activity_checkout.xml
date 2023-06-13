@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:layout_width="142dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="155dp"
+            android:layout_height="137dp"
+            android:orientation="vertical">
+
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_back"
+            android:layout_marginTop="250dp"
+            android:text="back" />
+
+        <ImageView
+            android:id="@+id/logo_id"
+            android:layout_width="match_parent"
+            android:layout_height="317dp"
+
+
+            android:layout_marginTop="0dp"
+            android:src="@drawable/software_logo" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="7dp"
+        android:layout_height="match_parent"
+        android:layout_weight="8"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|center_vertical|end"
+            android:orientation="horizontal"
+            android:paddingTop="8dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="25"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/CardNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="#30ffffff"
+                android:digits="01234 56789"
+                android:hint="Card Number"
+                android:inputType="number"
+                android:maxLength="20"
+                android:minHeight="48dp"
+                android:padding="5dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white" />
+
+            <EditText
+                android:id="@+id/CardUserName"
+                android:maxLength="25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/CardNumber"
+                android:layout_marginTop="5dp"
+                android:background="#30ffffff"
+                android:hint="Full Name"
+                android:minHeight="48dp"
+                android:padding="5dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white" />
+
+            <EditText
+                android:id="@+id/ExperationDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/CardUserName"
+                android:layout_marginTop="5dp"
+                android:background="#30ffffff"
+                android:hint="Expiration Date (MM/YY)"
+                android:minHeight="48dp"
+                android:padding="5dp"
+                android:maxLength="5"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white" />
+
+            <EditText
+                android:id="@+id/Cvv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/ExperationDate"
+                android:layout_marginTop="5dp"
+                android:background="#30ffffff"
+                android:hint="CVV"
+                android:minHeight="48dp"
+                android:padding="5dp"
+                android:inputType="number"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:maxLength="3"
+                />
+
+            <EditText
+                android:id="@+id/phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/Cvv"
+                android:layout_marginTop="5dp"
+                android:background="#30ffffff"
+                android:hint="Phone Number"
+                android:minHeight="48dp"
+                android:padding="5dp"
+                android:maxLength="10"
+                android:inputType="number"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white" />
+
+            <EditText
+                android:id="@+id/address"
+                android:maxLength="120"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/phone"
+                android:layout_marginTop="5dp"
+                android:background="#30ffffff"
+                android:hint="Address"
+                android:minHeight="48dp"
+                android:padding="5dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="15dp">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="6"
+                    android:gravity="center_vertical|end"
+                    android:orientation="horizontal">
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="6"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="110dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/credit_card"
+            android:layout_width="match_parent"
+            android:layout_height="219dp"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/ic_credit_card" />
+
+        <Button
+            android:id="@+id/SubmitButton"
+            android:layout_width="match_parent"
+            android:onClick="OrderCompleted"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="250dp"
+            android:background="@drawable/button_back"
+            android:text="Complete" />
+    </RelativeLayout>
+
+</LinearLayout>
