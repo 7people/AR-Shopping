@@ -40,7 +40,7 @@ Password: demo
 ```
 ## Developers
 - Ali Kanal [@AlkaliNN](https://github.com/AlkaliNN "@AlkaliNN")
-- Bahri Şahin Demirtaş
+- Bahri Şahin Demirtaş [@bahridts](https://github.com/bahridts "@bahridts")
 - Berkay Mustafaoğlu [@wilwaerin](https://github.com/wilwaerin "@wilwaerin")
 - Mehmet Aytaç [@MehmetAytac](https://github.com/MehmetAytac "@MehmetAytac")
 - Mehmet Sedat Yıldız [@Muunsparks](https://github.com/Muunsparks "@Muunsparks")
